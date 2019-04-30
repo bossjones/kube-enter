@@ -1,0 +1,36 @@
+{
+  "name": "kube-enter",
+  "version": "0.0.1",
+  "description": "Select a kube container from a list to start a bash session",
+  "main": "main.js",
+  "bin": {
+    "kube-enter": "./kube-enter.js"
+  },
+  "scripts": {
+    "publish-patch": "npm version patch && npm publish",
+    "publish-minor": "npm version minor && npm publish",
+    "publish-major": "npm version major && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bossjones/kube-enter.git"
+  },
+  "bugs": {
+    "url": "http://github.com/bossjones/kube-enter/issues"
+  },
+  "author": "Denis Ciccale (@bossjones)",
+  "license": "MIT",
+  "dependencies": {
+    "data.task": "^3.1.1",
+    "inquirer": "^2.0.0"
+  },
+  "keywords": [
+    "kubernetes",
+    "kubectl",
+    "container",
+    "bash",
+    "sh",
+    "interactive"
+  ],
+  "preferGlobal": true
+}
