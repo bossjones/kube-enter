@@ -18,7 +18,7 @@
   "bugs": {
     "url": "http://github.com/bossjones/kube-enter/issues"
   },
-  "author": "Denis Ciccale (@bossjones)",
+  "author": "Malcolm Jones (@bossjones)",
   "license": "MIT",
   "dependencies": {
     "data.task": "^3.1.1",
